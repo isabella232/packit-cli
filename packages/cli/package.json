@@ -40,5 +40,6 @@
     "didyoumean": "^1.2.1",
     "inquirer": "^7.0.0",
     "semver": "^6.3.0"
-  }
+  },
+  "gitHead": "bc8584952887461969de8df74b70151bbae14d70"
 }
