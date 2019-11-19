@@ -1,0 +1,44 @@
+{
+  "name": "@packit/cli",
+  "version": "0.0.1",
+  "description": "CLI tool for creating package based architecture for enterprise frontend applications.",
+  "keywords": [
+    "package",
+    "frontend",
+    "cli"
+  ],
+  "author": "selcuk-atlassian <skiraz@atlassian.com>",
+  "homepage": "https://github.com/atlassian/packit-cli#readme",
+  "license": "MIT",
+  "bin": {
+    "packit": "bin/packit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vue-cli.git",
+    "directory": "packages/cli"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/atlassian/packit-cli/issues"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "didyoumean": "^1.2.1",
+    "inquirer": "^7.0.0",
+    "semver": "^6.3.0"
+  }
+}
