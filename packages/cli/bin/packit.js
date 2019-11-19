@@ -48,7 +48,7 @@ program
   .description('create a new project')
   .action((name, cmd) => {
     const options = cleanArgs(cmd);
-    console.log(chalk.yellow(`Merhaba ${options}`));
+    console.log(chalk.yellow(`Merhaba celljuke. These are the ${options}`));
   });
 
 program.arguments('<command>').action(cmd => {
