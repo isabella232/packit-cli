@@ -39,7 +39,7 @@ if (semver.satisfies(process.version, '9.x')) {
 const program = require('commander');
 
 program
-  .version(`@packit/cli ${require('../package').version}`)
+  .version(`@pckt/cli ${require('../package').version}`)
   .usage('<command> [options]');
 
 program
