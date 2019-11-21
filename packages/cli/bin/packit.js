@@ -5,7 +5,6 @@ const semver = require('semver');
 const requiredVersion = require('../package.json').engines.node;
 const didYouMean = require('didyoumean');
 
-// Setting edit distance to 60% of the input string's length
 didYouMean.threshold = 0.6;
 
 function checkNodeVersion(wanted, id) {
@@ -25,7 +24,7 @@ function checkNodeVersion(wanted, id) {
   }
 }
 
-checkNodeVersion(requiredVersion, '@vue/cli');
+checkNodeVersion(requiredVersion, '@packit/cli');
 
 if (semver.satisfies(process.version, '9.x')) {
   console.log(
@@ -47,8 +46,7 @@ program
   .command('create <app-name>')
   .description('create a new project')
   .action((name, cmd) => {
-    const options = cleanArgs(cmd);
-    console.log(chalk.yellow(`Merhaba celljuke. These are the ${options}`));
+    console.log(chalk.yellow(`Hello!! Package name is => ${name}`));
   });
 
 program.arguments('<command>').action(cmd => {
