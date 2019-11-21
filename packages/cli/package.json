@@ -1,6 +1,6 @@
 {
   "name": "@packit/cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "CLI tool for creating package based architecture for enterprise frontend applications.",
   "keywords": [
     "package",
